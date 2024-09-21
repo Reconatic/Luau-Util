@@ -43,9 +43,7 @@ uiratio.Parent = frame
 uiratio.AspectRatio = 0.859
 
 textbutton.MouseButton1Click:Connect(function()
-	print("> Bootloader Unavalible 🛠️")
-	print("> Self Destruction Start Now 🛠️")
-	screengui:Destroy()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NotConqr/Luau-Util/refs/heads/main/main.lua"))()
 end)
 
 local function drag_element(element)
