@@ -44,6 +44,7 @@ uiratio.AspectRatio = 0.859
 
 textbutton.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/NotConqr/Luau-Util/refs/heads/main/main.lua"))()
+	screengui:Destroy()
 end)
 
 local function drag_element(element)
