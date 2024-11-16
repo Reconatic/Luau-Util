@@ -4,11 +4,6 @@ Come With All Setting!!!
 *******************
 
 ```lua
---[[ 
-    WARNING: Use of this script may violate Roblox's Terms of Service.
-    Ensure you understand the risks involved, including account bans.
-]]
-
 local Params = {
     RepoURL = "https://raw.githubusercontent.com/luau/SynSaveInstance/main/",
     SSI = "saveinstance",
@@ -38,7 +33,7 @@ local Options = {
     },
     IgnoreList = {"CoreGui", "CorePackages"},
     __DEBUG_MODE = false,
-    decomptype = "custom", -- Set your custom decompiler type here
+    decomptype = "custom",
     IgnoreNotArchivable = true,
     RemovePlayerCharacters = true,
     Object = false,
