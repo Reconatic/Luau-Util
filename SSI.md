@@ -1,6 +1,7 @@
 
 *******************
-Come With All Setting!!!
+Solara ✅
+jjSpolit ✅
 *******************
 
 ```lua
